@@ -1,0 +1,3 @@
+$(function() {
+	// Your application code
+})
