@@ -1,5 +1,4 @@
-Kickstart project
-=================
+# Kickstart
 
 A starting point project for modern HTML5 applications
 
