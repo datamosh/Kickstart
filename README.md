@@ -1,6 +1,8 @@
 Kickstart project
 =================
 
+A starting point project for modern HTML5 applications
+
 ## Javacript kickstart object
 
 ### Plugins
