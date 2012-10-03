@@ -144,7 +144,7 @@ var kickstart = {
 		},
 
 		// Get or store data on local storage
-		store: function( namespace, data ) {
+		store: function(namespace, data) {
 			if (arguments.length > 1)
 				return localStorage.setItem(namespace, JSON.stringify(data))
 			else {

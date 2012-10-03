@@ -1,8 +1,12 @@
 # Kickstart
 
-A starting point project for modern HTML5 applications
+A starting point project for modern HTML5 applications.
 
 ## Javacript kickstart object
+
+### ECMA262-5
+
+Extend Object (create), Function (bind), String (trim) and Array (indexOf, lastIndexOf, forEach, map, filter, every and some) for ECMA262-5 compatibility on older browsers.
 
 ### Plugins
 
@@ -45,7 +49,39 @@ A starting point project for modern HTML5 applications
 	};
 	var newObject = kickstart.util.clone(oldObject);
 
-#### Template engine
+#### Pluralize word
+
+*Example:*
+
+	kickstart.util.pluralize(2, 'apple');
+
+#### Get or store data on local storage
+
+*Example:*
+
+	kickstart.util.store('username', 'Juan Carlos');
+	console.log(kickstart.util.store('username'));
+
+#### Get random integer or arbitrary
+
+*Example:*
+
+	kickstart.util.getRandomInt(0, 10);
+	kickstart.util.getRandomArbitary(0, 10);
+
+### System
+
+#### Detect retina support
+
+*Author: Thomas Fuchs*
+
+[*More info*](https://gist.github.com/3161015)
+
+*Example:*
+
+	kickstart.system.isRetina();
+
+### Template engine
 
 *Author: Addy Osmani*
 
@@ -74,7 +110,7 @@ A starting point project for modern HTML5 applications
 		console.log('Test:' + kickstart.template(markup, data));
 	</script>
 
-#### Preload images, CSS and JavaScript files without executing them
+### Preload images, CSS and JavaScript files without executing them
 
 [*More info*](http://www.phpied.com/preload-cssjavascript-without-execution/)
 
