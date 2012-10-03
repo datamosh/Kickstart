@@ -113,7 +113,7 @@ if (!('some' in Array.prototype)) {
 	}
 }
 
-// Datamosh 0.1
+// Javacript kickstart object 0.1
 var kickstart = {
 	version: '0.1',
 
@@ -207,7 +207,7 @@ var kickstart = {
 		}
 	},
 
-	// Init datamosh
+	// Init Kickstart
 	init: (function() {
 		// Init code
 	})()
